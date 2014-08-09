@@ -1,0 +1,38 @@
+{
+	"name": "chai-dom",
+	"description": "This is a chai plugin for asserting against the dom based on promises, and webdriver-sizzle",
+	"author": {
+		"name": "Jesse Harlin",
+		"url": "http://github.com/JesseHarlin",
+		"email": "Jesse Harlin <harlinjesse@gmail.com>"
+	},
+	"maintainers": [
+		{
+			"name": "Joe Hare",
+			"url": "http://github.com/jhare",
+			"email": "Joe Hare <joseph.hare@gmail.com>"
+		},
+		{
+			"name": "Ben Vantreese",
+			"url": "http:github.com/vantreeseba",
+			"email": "Ben Vantreese <vantreeseba@gmail.com>"
+		}
+	],
+
+	"dependencies": {
+		"selenium-webdriver": "2.x.x",
+		"webdriver-sizzle": "0.0.x"
+	},
+	"devDependencies": {
+		"gulp": "3.8.x",
+		"gulp-task-listing": "0.3.x"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JesseHarlin/chai-dom"
+	},
+	"readmeFilename": "README.md",
+	"liscences" : {
+		"type": "MIT"
+	}
+}
