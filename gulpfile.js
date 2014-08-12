@@ -13,8 +13,9 @@ var concat = require('gulp-concat');
 var options = {
 	stylusFiles: './stylus/**/*',
 	cssConcatName: 'styles.css',
-	javascriptFiles: './javascript/**/*',
-	javascriptConcatName: 'app.js',
+	javascriptFiles: './src/**/*',
+	javascriptConcatName: 'chai-dom.js',
+	javascriptTestFiles: './test/**/*',
 	distPath: './dist',
 	readme: './README.md',
 	gulpfile: './gulpfile.js'
@@ -61,6 +62,10 @@ function cleanDist() {
  */
 function notifyStylusChange() {
 	gulp.watch(options.stylusFiles, livereload.changed);
+}
+
+function notifyJavascriptChange() {
+	gulp.watch(options.javascriptFiles, livereload.changed);
 }
 
 function notifyReadmeChange() {
