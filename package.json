@@ -20,7 +20,7 @@
 	],
 
 	"dependencies": {
-		"selenium-webdriver": "2.x.x",
+		"selenium-webdriver": "^3.0.0",
 		"webdriver-sizzle": "~0.2.2"
 	},
 	"devDependencies": {
