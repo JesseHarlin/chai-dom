@@ -24,7 +24,7 @@
 		"webdriver-sizzle": "~0.2.2"
 	},
 	"devDependencies": {
-		"gulp": "~3.9.1",
+		"gulp": "~4.0.2",
 		"gulp-task-listing": "~1.0.1"
 	},
 	"repository": {
