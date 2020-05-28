@@ -21,7 +21,7 @@
 
 	"dependencies": {
 		"selenium-webdriver": "^3.0.0",
-		"webdriver-sizzle": "~0.2.2"
+		"webdriver-sizzle": "~0.3.4"
 	},
 	"devDependencies": {
 		"gulp": "~3.9.1",
